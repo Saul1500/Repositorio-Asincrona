@@ -11,13 +11,17 @@
     <style>
 
         body {
-          background-color: #f8f9fa; /* se agrego nuevo fondo */
+          background-color: #3770a8ee; /* se agrego nuevo fondo */
           }
-        .container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+          .container {
+            max-width: 400px;
+            padding: 2.5rem;
+            background: rgba(255, 255, 255, 0.1); /* Fondo translúcido */
+            border-radius: 15px;
+            backdrop-filter: blur(10px); /* Efecto de desenfoque */
+            border: 1px solid rgba(255, 255, 255, 0.1); /* Borde sutil */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 0.8s ease-in-out;
         }
     </style>
 
